@@ -33,6 +33,14 @@ $(window).load(function() {
 	//
 
 }); //
+	
+	initialize();
+
+function initialize() {
+  google.maps.event.addDomListener(window, 'load', function() {
+    codeAddress('London');
+  });
+}
 </script>		
 <!--[if lt IE 8]>
 		<div style='text-align:center'><a href="https://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg"border="0"alt=""/></a></div>
