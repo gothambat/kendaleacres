@@ -40,6 +40,24 @@ $(window).load(function() {
   <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
 <![endif]-->
+	<style>
+		.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+		
+		</style>
 </head>
 
 <body class="subpage">
@@ -113,8 +131,8 @@ $(window).load(function() {
 
 	<h5>Proverbs 6</h5>
 	
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/HyczX5n0Vos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	
+		<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/HyczX5n0Vos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
 
 </div>
 </div>
@@ -124,7 +142,7 @@ $(window).load(function() {
 
 	<h5>Christmas Devotion 2020</h5>
 	
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/VrJYUmmr8Pc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/VrJYUmmr8Pc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 	
 
 </div>
