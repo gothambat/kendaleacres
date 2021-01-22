@@ -75,13 +75,11 @@ footer{position: relative; z-index: 1; padding-top: 20px; padding-bottom: 15px; 
 .navbar_ .nav > li{position: relative; display: block; float: left; padding-left: 1px; white-space: nowrap; background: url(../images/marker00.png) left center no-repeat;}
 .navbar_ .nav > li:first-child{padding-left: 0; background: none;}
 .navbar_ .nav > li:first-child a{padding-left: 0;}
-.navbar_ .nav > li > a{position: relative; display: block; text-decoration: none; background: none; font-family: 'Roboto'; font-weight: 400; font-size: 20px; line-height: 60px; color: #fff; padding: 0px 25px; border: none; margin: 0; text-shadow:none;
+.navbar_ .nav > li > a, .tithely-give-btn {position: relative; display: block; text-decoration: none; background: none; font-family: 'Roboto'; font-weight: 400; font-size: 20px; line-height: 60px; color: #fff; padding: 0px 25px; border: none; margin: 0; text-shadow:none;
 transition: color 0.3s ease-out; -moz-transition: color 0.3s ease-out; -webkit-transition: color 0.3s ease-out; -o-transition: color 0.3s ease-out;
 }
 .navbar_ .nav > li > a em{vertical-align: top; display: inline-block; width: 10px; height: 5px; background: url(../images/marker0.png) left top no-repeat; position: relative; margin-left: 10px; margin-top: 27px;}
-.navbar_ .nav > li.active > a, .navbar_ .nav > li.active > a:hover, .navbar_ .nav > li.active > a:focus, .navbar_ .nav > li > a:hover, .navbar_ .nav > li > a:focus, .navbar_ .nav > li.sfHover > a, .navbar_ .nav > li.sfHover > a:hover{color: #d1eb6a; text-decoration: none; background: none;  box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none;}
-
-
+.navbar_ .nav > li.active > a, .navbar_ .nav > li.active > a:hover, .navbar_ .nav > li.active > a:focus, .navbar_ .nav > li > a:hover, .navbar_ .nav > li > a:focus, .navbar_ .nav > li.sfHover > a, .navbar_ .nav > li.sfHover > a:hover, .tithely-give-btn:hover {color: #d1eb6a; text-decoration: none; background: none;  box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none;}
 
 
 
@@ -352,8 +350,9 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 @media (min-width: 1200px) {	
 	#inner{max-width: 1230px; }
 
-	.navbar_ .nav > li > a{font-size: 24px; padding: 0 30px;}
+	.navbar_ .nav > li > a, .tithely-give-btn {font-size: 24px; padding: 0 30px;}
 
+	
 	.colorized{width: 1100px; height: 7px;}
 
 	#slider2 .txt1{bottom: 80px; font-size: 44px; line-height: 44px; padding: 25px 44px;}
@@ -387,8 +386,7 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 	.nav-collapse_.collapse{height: auto!important; overflow: visible!important;}
 	.navbar_ .btn-navbar{display: none;}
 
-	.navbar_ .nav > li > a{font-size: 16px; padding: 0 20px;}
-
+	.navbar_ .nav > li > a, .tithely-give-btn {font-size: 16px; padding: 0 20px;}
 	.banners .banner .txt1 .img{float: none; padding-right: 0px;}
 
 	.colorized{width: 700px; height: 7px;}
@@ -413,10 +411,12 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 
 	.navbar_ .nav{display: block; background: #11384b; text-align: left;}
 	.navbar_ .nav > li{float: none; margin-left: 0; padding-left: 0; background: none; border-bottom: 1px solid #41606f;}	
-	.navbar_ .nav > li > a{padding-left: 10px!important;}
+	.navbar_ .nav > li > a, .tithely-give-btn {padding-left: 10px!important;}
 	.sub-menu ul{position: relative; left: 0; top: 0;}
 	.sub-menu-2 > ul li a{padding-left: 40px;}
 
+	
+	
 	#slider2 .txt1{bottom: 30px; font-size: 18px; line-height: 18px; padding: 10px 25px;}
 
 	.pad_left20{padding-left: 0px;}
@@ -476,3 +476,5 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out;
 
 }
+
+

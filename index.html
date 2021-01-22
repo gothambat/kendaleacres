@@ -52,7 +52,8 @@ $(window).load(function() {
 	//
 
 }); //
-</script>		
+</script>	
+
 <!--[if lt IE 8]>
 		<div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg"border="0"alt=""/></a></div>  
 	<![endif]-->    
@@ -94,8 +95,13 @@ $(window).load(function() {
 				<li><a href="about.html">About</a></li>	
 				<li><a href="calendar.html">Calendar</a></li>	
 				<li><a href="sermons.html">Sermons</a></li>	
-				<li><a href="https://tithe.ly/give?c=1311359" target="_blank">Giving</a></li>																						
-				<li><a href="contact.html">Contact Us</a></li>											
+				<!--<li><a href="https://tithe.ly/give?c=1311359" target="_blank">Giving</a></li>				-->																		
+				<li><a href="contact.html">Contact Us</a></li>	
+			<li><button class="tithely-give-btn"  data-church-id="1311359">Give</button></li>
+				<script src="https://tithe.ly/widget/v3/give.js?3"></script>
+<script>
+var tw = create_tithely_widget();
+</script>
 			</ul>
 		</div>
 	</div>
@@ -216,6 +222,11 @@ $(window).load(function() {
 	<div class="line1"></div>
 	<div class="text-right"><a href="about.html" class="button2">Learn more about us</a></div>
 </div>	
+	
+
+	
+	
+	
 </div>		
 <div class="span6">
 <div class="pad_left20 pad_right20">
